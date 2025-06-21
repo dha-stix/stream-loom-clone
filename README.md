@@ -30,4 +30,5 @@ A video recording and sharing app built with Next.js. Users can record videos us
 ## Tools
 
 👉🏻 [Stream Audio & Video SDK](https://getstream.io/video/)
+
 👉🏻 [Video Recordings Feature](https://getstream.io/video/docs/react/advanced/recording/)
