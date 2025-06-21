@@ -11,7 +11,7 @@ A video recording and sharing app built with Next.js. Users can record videos us
   ```
 - Create a [Firebase app with Authentication and Firebase Firestore features](https://firebase.google.com/)
 
-- Update the [firebase.ts](https://github.com/dha-stix/stream-games/blob/main/src/lib/firebase.ts) file with your Firebase configuration code.
+- Update the [firebase.ts](https://github.com/dha-stix/stream-loom-clone/blob/main/src/lib/firebase.ts) file with your Firebase configuration code.
 
 - Create your [Stream account](https://getstream.io/try-for-free/) and also add your Stream credentials into the **`env.local`** file.
 
@@ -21,7 +21,8 @@ A video recording and sharing app built with Next.js. Users can record videos us
   STREAM_SECRET_KEY=
   NEXT_PUBLIC_IMAGE_URL=https://api.dicebear.com/9.x/pixel-art/svg?seed=
   ```
-
+- Install the [Stream Chat extension](https://extensions.dev/extensions/stream/auth-chat) to your Firebase app.
+  
 - Finally, start the development server by running the code snippet below:
   ```bash
   npm run dev
