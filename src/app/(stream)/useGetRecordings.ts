@@ -12,7 +12,7 @@ export const useGetRecordings = (userId: string) => {
 		const loadCallRecordings = async () => {
 			try {
 				const { calls } = await client.queryCalls({
-					sort: [{ field: "starts_at", direction: 1 }],
+					sort: [{ field: "starts_at", direction: -1 }],
 					filter_conditions: {
 						$or: [
 							{ created_by_user_id: userId },
